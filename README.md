@@ -1,41 +1,49 @@
-# Project Title
-
-Simple overview of use/purpose.
+# Degen Gaming Token
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The Degen Gaming Token (`DegenToken`) is an ERC20 token deployed on the Avalanche network specifically designed for the Degen Gaming platform. This token allows for minting new tokens, transferring tokens between players, redeeming tokens for in-game items, checking token balances, and burning tokens.
 
 ## Getting Started
 
+### Prerequisites
+
+- Node.js and npm installed.
+- MetaMask wallet set up and connected to the Avalanche network.
+- AVAX tokens in your MetaMask wallet for transaction fees.
+
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-repo/DegenGamingToken.git
+   cd DegenGamingToken
+    ```
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+## Executing Program
 
-### Executing program
+### Using HardHat
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
+1. **Compile the Contract**
+   ```bash
+   npx hardhat compile
+   ```
+2. **Deploy the contract to the Avalanche Fuji Testnet:**
+   ```bash
+   npx hardhat run scripts/deploy.js --network fuji
+   ```
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
+If the program contains helper information, use:
+  ```bash
+   npx hardhat help
+   ```
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
+Gaurav  
+[@GauravHandle](https://www.linkedin.com/in/gaurav-kumar-18151819b/)
 
 ## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
